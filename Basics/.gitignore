@@ -1,0 +1,41 @@
+# Compiled C++ executables
+*.exe
+*.out
+*.o
+*.obj
+*.dll
+*.so
+*.dylib
+
+# Debugging files
+*.pdb
+*.ilk
+*.stackdump
+core
+
+# Build directories
+build/
+bin/
+dist/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Keep source code and documentation tracked
+!*.cpp
+!*.h
+!*.hpp
+!README.md

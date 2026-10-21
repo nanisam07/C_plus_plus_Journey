@@ -6,7 +6,7 @@ int main(){
     cout << "Enter your marks: ";
     cin >> marks;
 
-    if (marks == 100 || marks == 0){
+    if (marks > 99 || marks < 0){
         cout << "Invalid Marks";
     } 
     else if(marks >=90){
